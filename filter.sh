@@ -2,7 +2,7 @@
 
 if [[ $# -eq 0 ]]; then
 
-  printf '\e[31mNo domains were given. Usage: "./validator.sh <domain1> <domain2> ..."\n\e[0m' >&2
+  printf '\e[31mNo domains were given. Usage: "./filter.sh <domain1> <domain2> ..."\n\e[0m' >&2
   exit 1
 
 fi
